@@ -54,7 +54,7 @@ REM  -w[{path}]: 作業ディレクトリを指定する。空欄なら一時ディレクトリとみなす。a
 REM  -x[r[-|0]]]{@リストファイル|!ワイルドカード}: ファイルを実行する。eXclude filenames
 REM  -y: 質問にYesと答えるものとして実行する。assume Yes on all queries
 
-
+git pull
 
 echo %date%
 echo %time%
@@ -75,6 +75,8 @@ rem echo test >> log_%filename%.txt
 
 
 .\..\tool\7z\7za.exe a .\資料.7z .\資料\ -r -paniki1119 -w.\ -ssc -ssw -mx=9 -mfb=128 -y
+
+
 
 git add 資料.*
 git add *.cmd
