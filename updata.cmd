@@ -79,4 +79,5 @@ rem echo test >> log_%filename%.txt
 git add Ž‘—¿.*
 git add *.cmd
 git commit -m "%filename%"
+git remote add origin https://github.com/ShiccaRorl/Terasu.git
 git push -u origin main
