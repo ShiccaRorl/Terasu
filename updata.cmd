@@ -54,7 +54,7 @@ REM  -w[{path}]: 作業ディレクトリを指定する。空欄なら一時ディレクトリとみなす。a
 REM  -x[r[-|0]]]{@リストファイル|!ワイルドカード}: ファイルを実行する。eXclude filenames
 REM  -y: 質問にYesと答えるものとして実行する。assume Yes on all queries
 
-git pull
+git pull --progress -v --no-rebase "origin" master
 
 echo %date%
 echo %time%
