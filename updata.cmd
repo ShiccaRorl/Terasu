@@ -74,10 +74,11 @@ set filename=%yyyy%-%mm%-%dd%_%hh%-%mn%-%ss%
 rem echo test >> log_%filename%.txt
 
 
-.\..\tool\7z\7za.exe a .\Ž‘—¿.7z .\Ž‘—¿\ -r -paniki1119 -w.\ -ssc -ssw -mx=9 -mfb=128 -y >> .\Ž‘—¿.log
+.\..\tool\7z\7za.exe a .\Ž‘—¿.7z .\Ž‘—¿\ -r -paniki1119 -w.\ -ssc -ssw -mx=9 -mfb=128 -y
 
 git add Ž‘—¿.*
 git add *.cmd
 git commit -m "%filename%"
 git remote add origin https://github.com/ShiccaRorl/Terasu.git
-git push -u origin main
+git push --progress "origin" master
+
