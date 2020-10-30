@@ -76,4 +76,6 @@ rem echo test >> log_%filename%.txt
 
 .\..\tool\7z\7za.exe a .\Ž‘—¿_%filename%.7z .\Ž‘—¿\ -r -paniki1119 -w.\ -ssc -ssw -mx=9 -mfb=128 -y >> .\Ž‘—¿_%filename%.log
 
-
+git add -a
+git commit -m "%filename%"
+git push -u origin main
