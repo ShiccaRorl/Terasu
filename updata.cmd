@@ -74,7 +74,7 @@ set filename=%yyyy%-%mm%-%dd%_%hh%-%mn%-%ss%
 rem echo test >> log_%filename%.txt
 
 
-.\..\tool\7z\7za.exe a .\Ž‘—¿_%filename%.7z .\Ž‘—¿\ -r -paniki1119 -w.\ -ssc -ssw -mx=9 -mfb=128 -y >> .\Ž‘—¿_%filename%.log
+.\..\tool\7z\7za.exe a .\Ž‘—¿.7z .\Ž‘—¿\ -r -paniki1119 -w.\ -ssc -ssw -mx=9 -mfb=128 -y >> .\Ž‘—¿.log
 
 rem git add -a
 rem git commit -m "%filename%"
