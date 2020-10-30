@@ -79,4 +79,4 @@ rem echo test >> log_%filename%.txt
 git add Ž‘—¿.*
 git add *.cmd
 git commit -m "%filename%"
-rem git push -u origin main
+git push -u origin main
