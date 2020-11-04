@@ -82,5 +82,6 @@ git add Ž‘—¿.*
 git add *.cmd
 git commit -m "%filename%"
 git remote add origin https://github.com/ShiccaRorl/Terasu.git
+git remote -v
 git push --progress "origin" master
 
